@@ -1,3 +1,4 @@
+
 /*---------- fonts------------ */
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,600&family=Poppins:wght@500&display=swap');
 /*-----------All Utilites  ---------------- */
@@ -94,12 +95,11 @@ top blog styles end
  ------------- */
 .courses{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
 }
 .course{
     width: 275px;
-    height: 340px;
     background-color: #FFFFFF;
     border-radius: 16px;
     margin-bottom: 16px;
@@ -150,7 +150,7 @@ top blog styles end
         justify-items: center;
     }
  
-} */
+}
 
 @media only screen and (min-width:688px) and (max-width:992px) {
     .container{
