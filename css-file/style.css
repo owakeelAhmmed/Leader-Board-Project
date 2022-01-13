@@ -94,7 +94,7 @@ top blog styles end
  ------------- */
 .courses{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 24px;
 }
 .course{
@@ -102,6 +102,7 @@ top blog styles end
     height: 340px;
     background-color: #FFFFFF;
     border-radius: 16px;
+    margin-bottom: 16px;
     box-shadow: 0 3px 6px #c1bdbd;
 }
 .course .course-banner img{
@@ -149,7 +150,7 @@ top blog styles end
         justify-items: center;
     }
  
-}
+} */
 
 @media only screen and (min-width:688px) and (max-width:992px) {
     .container{
